@@ -5,10 +5,10 @@ int Receive_PIN = 3;
 IRrecv IR_Receive(Receive_PIN);
 decode_results Results;
 
-#define Light_1 = 10;
-#define Light_2 = 11;
-#define Light_3 = 12;
-#define Light_4 = 13;
+#define Light_1  10
+#define Light_2  11
+#define Light_3  12
+#define Light_4  13
 
 
 int State_1 = HIGH;
